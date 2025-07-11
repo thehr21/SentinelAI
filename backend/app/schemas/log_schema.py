@@ -21,3 +21,10 @@ class LogCreate(BaseModel):
                 "endpoint": "/login"
             }
         }
+
+class LogResponse(LogCreate):
+    id: int
+    timestamp: datetime
+
+    class Config:
+        orm_mode = True
