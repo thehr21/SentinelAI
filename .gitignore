@@ -14,3 +14,14 @@ backend/.env
 Thumbs.db
 
 *.zip
+ai/datasets/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+ai/datasets/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+ai/datasets/Friday-WorkingHours-Morning.pcap_ISCX.csv
+ai/datasets/Monday-WorkingHours.pcap_ISCX.csv
+ai/datasets/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+ai/datasets/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+ai/datasets/Tuesday-WorkingHours.pcap_ISCX.csv
+ai/datasets/Wednesday-workingHours.pcap_ISCX.csv
+
+venv-ai/
+ai/multiclass_dataset.libsvm
