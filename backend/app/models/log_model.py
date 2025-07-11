@@ -1,6 +1,6 @@
 # app/models/log_model.py
 
-from sqlalchemy import Column, Integer, String, DateTime
+from sqlalchemy import Column, Integer, String, DateTime, Boolean
 from sqlalchemy.ext.declarative import declarative_base
 from datetime import datetime
 
@@ -16,3 +16,5 @@ class Log(Base):
     result = Column(String, nullable=False)
     endpoint = Column(String, nullable=False)
     timestamp = Column(DateTime, default=datetime.utcnow)
+    is_flagged = Column(Boolean, default=False)
+    threat_score = Column(Integer, nullable=True)
