@@ -25,3 +25,5 @@ ai/datasets/Wednesday-workingHours.pcap_ISCX.csv
 
 venv-ai/
 ai/multiclass_dataset.libsvm
+ai/ai/predictions_with_flags.csv
+ai/ai/.ipynb_checkpoints/predictions_with_flags-checkpoint.csv
